@@ -31,6 +31,7 @@ li{
     box-shadow: 0px 0px 2px 0px #020202;
 
 }
+
 .btn-primary{
     background-color: #ff0000;
     border-color: #ff0000;
@@ -48,10 +49,10 @@ li{
     font-weight: bold;
 }
 .contactHeading{
-    padding: 10vh;
+    padding: 5vh;
 }
 .contactWraper{
-    position: absolute;
+    position: relative;
     top: 5vh;
 }
 .card{
@@ -63,7 +64,7 @@ li{
 
 }
 .wraper{
-    padding: 5vh;
+    padding: 2vh;
     background-color: #c2bdbd;
 }
 .wraper :hover{
@@ -75,7 +76,7 @@ h3 {
     animation-name: slidein;
     animation-iteration-count: infinite;
 }
-/*
+
 @keyframes slidein {
   0% {
     margin-left: 0%;
@@ -86,4 +87,7 @@ h3 {
   100% {
     margin-left: 0%;
   }
-}  */
+}
+.btn-primary:hover{
+    color:#ff0000;
+}
