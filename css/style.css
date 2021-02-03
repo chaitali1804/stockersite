@@ -41,7 +41,7 @@ li{
 }
 .largerText{
     padding: 4 rem;
-    text-justify: auto;
+    text-align: center;
 }
 .headingDesign{
     font-family:Bahnschrift SemiBold;
@@ -51,10 +51,10 @@ li{
 .contactHeading{
     padding: 5vh;
 }
-.contactWraper{
+/*.contactWraper{
     position: relative;
     top: 2vh;
-}
+}*/
 .card{
     border: 0rem;
 }
@@ -71,23 +71,3 @@ li{
 color: #ff0000;
 }
 
-h3 {
-    animation-duration: 8s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-}
-
-@keyframes slidein {
-  0% {
-    margin-left: 0%;
-  }
-  50% {
-    margin-left: 300px;
-  }
-  100% {
-    margin-left: 0%;
-  }
-}
-.btn-primary:hover{
-    color:#ff0000;
-}
