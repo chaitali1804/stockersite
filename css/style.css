@@ -51,12 +51,12 @@ li{
 .contactHeading{
     padding: 5vh;
 }
-/*.contactWraper{
-    position: relative;
-    top: 2vh;
-}*/
+
 .card{
-    border: 0rem;
+    border: 1px;
+    border-style: double;
+    background-color: #c2bdbd;
+    ;
 }
 .crdtextStrong{
     font-weight: bold;
